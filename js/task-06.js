@@ -4,6 +4,7 @@ validationInput.addEventListener('blur', onInputBlur);
 
 function onInputBlur(event) {
   const lengthString = Number(event.currentTarget.getAttribute('data-length'));
+  //event.currentTarget.dataset.length;
 
   event.currentTarget.classList.remove('valid');
   event.currentTarget.classList.remove('invalid');
