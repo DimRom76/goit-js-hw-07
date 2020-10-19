@@ -1,6 +1,6 @@
 #gallery {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
 }
 
 .img-gallery {
@@ -8,10 +8,10 @@
 }
 
 .li-gallery {
-  margin-bottom: 10px;
+  margin-right: 10px;
   list-style-type: none;
 }
 
 .li-gallery:last-child {
-  margin-bottom: 0px;
+  margin-right: 0px;
 }
