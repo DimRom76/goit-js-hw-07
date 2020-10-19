@@ -1,0 +1,17 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-gallery {
+  width: 500px;
+}
+
+.li-gallery {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.li-gallery:last-child {
+  margin-bottom: 0px;
+}
