@@ -23,6 +23,8 @@ function destroyBoxes() {
   while (divBoxes.firstChild) {
     divBoxes.removeChild(divBoxes.firstChild);
   }
+  //очистить быстро всех детей можно так
+  //divBoxes.innerHTML = "";
 }
 
 function createBoxes(amount) {

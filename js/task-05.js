@@ -7,4 +7,7 @@ function onInputChange(event) {
   spanOutput.textContent = event.currentTarget.value
     ? event.currentTarget.value
     : 'незнакомец';
+
+  //короче условие можно записать так
+  //spanOutput.textContent = event.currentTarget.value || 'незнакомец';
 }
